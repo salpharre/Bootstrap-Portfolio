@@ -59,6 +59,7 @@ h2, h3, h4, h5 {
 
 .portfolio {
     padding: 2rem 2rem;
+    background-color: #74546A;
 }
 
 .brand {
@@ -71,9 +72,23 @@ h2, h3, h4, h5 {
     font-size: 25px;
 }
 
-/* .imgLogo {
-    padding-bottom: 2rem;
-} */
+.projectImg {
+    border: solid #0B032D
+}
+
+.projectText {
+    color: #FFB997;
+}
+
+.projectName {
+    color: #0B032D;
+    font-size: 20px;
+    font-family: Arial, Helvetica, serif;
+}
+
+.namePort {
+    color: #FFB997
+}
 
 ul.navbar-nav {
     top: 0;
