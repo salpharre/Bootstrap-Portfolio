@@ -24,10 +24,21 @@ h2, h3, h4, h5 {
 
 .about {
     padding: 2rem 2rem;
+    background-color: #0B032D;
+    color: #FFB997;
+    border-left: ridge #74546A;
 }
 
 .ed {
     padding: 1rem 1rem;
+    background-color: #0B032D;
+    color: #FFB997;
+    border-bottom: ridge #74546A;
+}
+
+.welcome {
+    background-color: #0B032D;
+    color: #FFB997;
 }
 
 .copyright {
@@ -41,8 +52,13 @@ h2, h3, h4, h5 {
 }
 
 .name {
-    color: #FFB997
+    color: #FFB997;
+    font-size: 25px;
 }
+
+/* .imgLogo {
+    padding-bottom: 2rem;
+} */
 
 ul.navbar-nav {
     top: 0;
@@ -52,3 +68,8 @@ a.nav-link {
     color: #FFB997;
 }
 
+nav {
+    border-top: solid #FFB997;
+    border-bottom: solid #FFB997;
+    margin-top: 2rem;
+}
