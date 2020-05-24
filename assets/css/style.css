@@ -22,17 +22,21 @@ h2, h3, h4, h5 {
     font-size: 16px;
 }
 
+.aboutText {
+    color: #FFB997;
+}
+
 .about {
     padding: 2rem 2rem;
-    background-color: #0B032D;
-    color: #FFB997;
+    background-color: #74546A;
+    color: #0B032D;
     border-left: ridge #74546A;
 }
 
 .ed {
     padding: 1rem 1rem;
-    background-color: #0B032D;
-    color: #FFB997;
+    background-color: #74546A;
+    color: #0B032D;
     border-bottom: ridge #74546A;
 }
 
@@ -90,6 +94,10 @@ h2, h3, h4, h5 {
     color: #FFB997
 }
 
+.main {
+    font-family: Arial, Helvetica, serif;
+}
+
 ul.navbar-nav {
     top: 0;
 }
@@ -102,4 +110,9 @@ nav {
     border-top: solid #FFB997;
     border-bottom: solid #FFB997;
     margin-top: 2rem;
+}
+
+.portBtn {
+    color: #0B032D;
+    border: solid #0B032D;
 }
