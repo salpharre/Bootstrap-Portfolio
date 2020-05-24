@@ -1,40 +1,42 @@
-body {/**/
+body {/*set color of background for body of all html files*/
     background-color: #0B032D;
 }
 
-h1 {/**/
+h1 {/*sets font-size of 'about me' on about html*/
     font-size: 20px;
 }
 
-h2, h3, h4, h5 {/**/
+h2, h3, h4, h5 {/*sets font-size of other header tags on about html*/
     font-size: 16px;
 }
 
-.aboutText {/**/
+.aboutText {/*sets color of p tags on about html*/
     color: #FFB997;
 }
 
-.about {/**/
+.about {/*jumbotron on the left in about html - padding is decreased, background color is set for ease of reading, 
+    font color for header tags is set, border on the left side is applied to make it pop more*/
     padding: 2rem 2rem;
     background-color: #74546A;
     color: #0B032D;
     border-left: ridge #74546A;
 }
 
-.ed {/**/
+.ed {/*jumbotron on the right in about html - padding is greatly decreased, border is to make jubotron pop more*/
     padding: 1rem 1rem;
     background-color: #74546A;
     color: #0B032D;
     border-bottom: ridge #74546A;
 }
 
-.welcome {/**/
+.welcome {/*jumbotron on index html - background color is to make the jumbotron meld into the body background*/
     background-color: #0B032D;
     color: #FFB997;
     font-family: Arial, Helvetica, serif;
 }
 
-.contact {/**/
+.contact {/*jumbotron on contact html - padding is decreased, color is set as same as body color to make it meld into background,
+    left border is for ease of reading and draw eyes immediately to links*/
     padding: 2rem 2rem;
     background-color: #0B032D;
     color: #FFB997;
@@ -42,54 +44,52 @@ h2, h3, h4, h5 {/**/
     font-family: Arial, Helvetica, serif;
 }
 
-.contactText {/**/
+.contactText {/*incrased font size for the word 'Contact' on contact html*/
     font-size: 23px;
 }
 
-.portfolio {/**/
+.portfolio {/*jumbotron on portfolio html - decrease top and bottom padding*/
     padding: 2rem 2rem;
     background-color: #74546A;
 }
 
-.brand {/**/
+.brand {/*jumbotron in header that holds the personal logo, name and navbar - removes margin on the bottom so the content under the header
+    isn't pushed down as much*/
     margin-bottom: 0;
     background-color: #0B032D;
 }
 
-.name {/**/
+.name {/*set color and size of name next to logo*/
     color: #FFB997;
     font-size: 25px;
 }
 
-.projectImg {/**/
+.projectImg {/*set a border around images on portfolio html*/
     border: solid #0B032D
 }
 
-.projectText {/**/
-    color: #FFB997;
-}
-
-.projectName {/**/
+.projectName {/*set names of projects on portfolio html to certain color, size and font*/
     color: #0B032D;
     font-size: 20px;
     font-family: Arial, Helvetica, serif;
 }
 
-.main {/**/
+.main {/*set font for jumbotron on about html*/
     font-family: Arial, Helvetica, serif;
 }
 
-a.nav-link, .namePort {/**/
+a.nav-link, .namePort, .projectText {/*font color for navbar links, portoflio title word for portfolio html, text color for project
+    description on portfolio html*/
     color: #FFB997;
 }
 
-nav {/**/
+nav {/*style navbar, border on top and bottom and a margin on the top to push apart navbar from logo*/
     border-top: solid #FFB997;
     border-bottom: solid #FFB997;
     margin-top: 2rem;
 }
 
-.portBtn {/**/
+.portBtn {/*color font of buttons on portfolio html and border*/
     color: #0B032D;
     border: solid #0B032D;
 }
