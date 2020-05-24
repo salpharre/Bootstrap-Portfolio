@@ -43,6 +43,9 @@ h2, h3, h4, h5 {
 
 .contact {
     padding: 2rem 2rem;
+    background-color: #0B032D;
+    color: #FFB997;
+    border-left: ridge #74546A;
 }
 
 .contactText {
@@ -52,6 +55,10 @@ h2, h3, h4, h5 {
 .copyright {
     text-align: center;
     color: #FFB997;
+}
+
+.portfolio {
+    padding: 2rem 2rem;
 }
 
 .brand {
