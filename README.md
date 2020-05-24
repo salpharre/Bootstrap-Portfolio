@@ -1,6 +1,6 @@
 # Bootstrap-Portfolio
 
-Personal Portfolio created using Bootstrap.
+Personal Portfolio created using Bootstrap and own CSS.
 
 ## Table of Contents
 
@@ -14,7 +14,7 @@ Personal Portfolio created using Bootstrap.
 
 ### General Info
 
-Project webpage is a personal portfolio to showcase past, current and future projects. Through the link below it's currently only it's first rendition but with my growing knowledge of full-stack web development, it shall grow from here.
+Project webpage is a personal portfolio to showcase past, current and future projects. It is composed of four html files: the home page (index), portfolio page (porfolio), about me page (about), and contact page (contact). Each page can easily be traveled to via the navbar in the header, where my name and a personally made logo graces it.
 
 #### Technologies
 
@@ -24,10 +24,13 @@ Project webpage is a personal portfolio to showcase past, current and future pro
 
 ##### Launch
 
-Portfolio can be found here: https://salpharre.github.io/Bootstrap-Portfolio/
+Original launch date: `April 4th, 2020`
+
+Newly updated layout: `May 23rd, 2020`
+
+https://salpharre.github.io/Bootstrap-Portfolio/
 
 ###### Sources
 
-* Unsplash.com - photos used as placeholders, credited
+* Colors.co - color palette generator
 
-* Shutterstock - inspiration for my personal logo

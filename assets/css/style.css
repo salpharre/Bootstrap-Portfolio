@@ -1,118 +1,95 @@
-body {
+body {/**/
     background-color: #0B032D;
 }
 
-footer {
-    position: absolute;
-    bottom: 0;
-    width:100%;   
-}
-.clifcite, .forestcite {
-    font-size: 12px;
-}
-.logo {
-    font-size: 10px;
-}
-
-h1 {
+h1 {/**/
     font-size: 20px;
 }
 
-h2, h3, h4, h5 {
+h2, h3, h4, h5 {/**/
     font-size: 16px;
 }
 
-.aboutText {
+.aboutText {/**/
     color: #FFB997;
 }
 
-.about {
+.about {/**/
     padding: 2rem 2rem;
     background-color: #74546A;
     color: #0B032D;
     border-left: ridge #74546A;
 }
 
-.ed {
+.ed {/**/
     padding: 1rem 1rem;
     background-color: #74546A;
     color: #0B032D;
     border-bottom: ridge #74546A;
 }
 
-.welcome {
+.welcome {/**/
     background-color: #0B032D;
     color: #FFB997;
+    font-family: Arial, Helvetica, serif;
 }
 
-.contact {
+.contact {/**/
     padding: 2rem 2rem;
     background-color: #0B032D;
     color: #FFB997;
     border-left: ridge #74546A;
+    font-family: Arial, Helvetica, serif;
 }
 
-.contactText {
+.contactText {/**/
     font-size: 23px;
 }
 
-.copyright {
-    text-align: center;
-    color: #FFB997;
-}
-
-.portfolio {
+.portfolio {/**/
     padding: 2rem 2rem;
     background-color: #74546A;
 }
 
-.brand {
+.brand {/**/
     margin-bottom: 0;
     background-color: #0B032D;
 }
 
-.name {
+.name {/**/
     color: #FFB997;
     font-size: 25px;
 }
 
-.projectImg {
+.projectImg {/**/
     border: solid #0B032D
 }
 
-.projectText {
+.projectText {/**/
     color: #FFB997;
 }
 
-.projectName {
+.projectName {/**/
     color: #0B032D;
     font-size: 20px;
     font-family: Arial, Helvetica, serif;
 }
 
-.namePort {
-    color: #FFB997
-}
-
-.main {
+.main {/**/
     font-family: Arial, Helvetica, serif;
 }
 
-ul.navbar-nav {
-    top: 0;
-}
-
-a.nav-link {
+a.nav-link, .namePort {/**/
     color: #FFB997;
 }
 
-nav {
+nav {/**/
     border-top: solid #FFB997;
     border-bottom: solid #FFB997;
     margin-top: 2rem;
 }
 
-.portBtn {
+.portBtn {/**/
     color: #0B032D;
     border: solid #0B032D;
 }
