@@ -46,34 +46,34 @@
 
   <!--Carousel of images of featured projects, each image is a link to portfolio and exact position-->
   <div class="jumbotron welcome">
-    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    <div id="carouselNext" class="carousel slide carousel-fade" data-ride="carousel">
+      <ol class="carousel-indicators dark">
+        <li data-target="#carouselNext" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselNext" data-slide-to="1"></li>
+        <li data-target="#carouselNext" data-slide-to="2"></li>
       </ol>
       <div class="carousel-inner">
-        <div class="carousel-item active">
-          <a class="linkToPosition" href="./html/portfolio.html">
+        <div class="carousel-item active" data-interval="3000">
+          <a id="linkToPosition" href="./html/portfolio.html#linkToBurger">
             <img src="./public/img/burger.jpg" class="d-block w-100" alt="Burger's Eaten Tracker">
           </a>
         </div>
-        <div class="carousel-item">
-          <a class="linkToPosition" href="./html/portfolio.html">
+        <div class="carousel-item" data-interval="3000">
+          <a class="linkToPosition" href="./html/portfolio.html#linkToProject1">
             <img src="./public/img/netflixchillies.jpg" class="d-block w-100" alt="Pick your Movie and Food">
           </a>
         </div>
-        <div class="carousel-item">
-          <a class="linkToPosition" href="./html/portfolio.html">
+        <div class="carousel-item" data-interval="3000">
+          <a class="linkToPosition" href="./html/portfolio.html#linkToWeather">
             <img src="./public/img/weather.jpg" class="d-block w-100" alt="Weather Dashboard">
           </a>
         </div>
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+      <a class="carousel-control-prev" href="#carouselNext" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
       </a>
-      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+      <a class="carousel-control-next" href="#carouselNext" role="button" data-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
