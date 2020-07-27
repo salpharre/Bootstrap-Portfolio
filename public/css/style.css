@@ -31,8 +31,7 @@ h2, h3, h4, h5 {/*sets font-size of other header tags on about html*/
 
 .welcome {/*jumbotron on index html - background color is to make the jumbotron meld into the body background*/
     background-color: #0B032D;
-    color: #FFB997;
-    font-family: Arial, Helvetica, serif;
+    padding-top: 1rem;
 }
 
 .contact {/*jumbotron on contact html - padding is decreased, color is set as same as body color to make it meld into background,
@@ -93,3 +92,13 @@ nav {/*style navbar, border on top and bottom and a margin on the top to push ap
     color: #0B032D;
     border: solid #0B032D;
 }
+
+.carousel-inner > .carousel-item > a > img {
+    height: 600px;
+    width: 100%;
+}
+
+/* .hello, .lead, .logo {
+    color: #FFB997;
+    font-family: Arial, Helvetica, serif;
+} */
