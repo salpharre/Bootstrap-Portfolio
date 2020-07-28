@@ -34,7 +34,7 @@ h2, h3, h4, h5 {/*sets font-size of other header tags on about html*/
     padding-top: 1rem;
 }
 
-.contact {/*jumbotron on contact html - padding is decreased, color is set as same as body color to make it meld into background,
+.contact, #contact, #form {/*jumbotron on contact html - padding is decreased, color is set as same as body color to make it meld into background,
     left border is for ease of reading and draw eyes immediately to links*/
     padding: 2rem 2rem;
     background-color: #0B032D;
@@ -102,3 +102,14 @@ nav {/*style navbar, border on top and bottom and a margin on the top to push ap
     color: #FFB997;
     font-family: Arial, Helvetica, serif;
 } */
+
+a#contact-tab.nav-link.active {
+    color: #FFB997;
+    background-color: #0B032D;
+    border-color: #74546A;
+}
+
+.nav-tabs {
+    color: #FFB997;
+    border-bottom: #74546A ridge;
+}
