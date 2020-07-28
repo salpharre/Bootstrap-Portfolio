@@ -1,4 +1,4 @@
-# Burger
+# Portfolio
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/salpharre/Bootstrap-Portfolio) ![npm version](https://badge.fury.io/js/inquirer.svg)
 
@@ -21,7 +21,6 @@ Project webpage is a personal portfolio to showcase past, current and future pro
 
 * VS Code v1.46.1
 * Bootstrap
-* formspree.io
 * shields.io
 * Colors.co 
 
@@ -39,5 +38,5 @@ Original launch date: `April 4th, 2020`
 
 Updated: `July 28th, 2020`
 
-https://salpharre.github.io/Bootstrap-Portfolio/
+(website)
  
