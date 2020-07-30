@@ -98,12 +98,7 @@ nav {/*style navbar, border on top and bottom and a margin on the top to push ap
     width: 100%;
 }
 
-/* .hello, .lead, .logo {
-    color: #FFB997;
-    font-family: Arial, Helvetica, serif;
-} */
-
-a#contact-tab.nav-link.active {
+a#contact-tab.nav-link.active, a#form-tab.nav-link.active {
     color: #FFB997;
     background-color: #0B032D;
     border-color: #74546A;
