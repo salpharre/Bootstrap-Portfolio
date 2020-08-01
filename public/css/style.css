@@ -29,8 +29,8 @@ h2, h3, h4, h5 {/*sets font-size of other header tags on about html*/
     background-color: #0B032D;
     padding-top: 1rem;
     color: #FFB997;
-    padding-bottom: 1rem;
-    margin-bottom: 1rem;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
 }
 
 .logo {/*Sets size of font part of jumbotron on index.html*/

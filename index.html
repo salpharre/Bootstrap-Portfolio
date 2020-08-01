@@ -18,11 +18,13 @@
 <body>
 
   <!--Jumbotron surrounds logo and navbar so they act as a header in unison-->
-  <div class="jumbotron brand">
+  <div class="jumbotron brand" id="backHome">
     <img src="./public/img/SAlogo5.jpg" width="50" height="50" class="d-inline-block imgLogo img-fluid"
       alt="SA initials">
-    <a class="pl-4 name" href="../index.html">
-      Sandra Arredondo
+    <a class="pl-4" href="./index.html">
+      <p class="name d-inline-block">
+        Sandra Arredondo
+      </p>
     </a>
 
     <!--Navbar-->
@@ -45,8 +47,9 @@
   </div>
   <!--Jumbotron to welcome users to portfolio-->
   <div class="jumbotron welcome">
-      <p class="lead">Welcome to my Portfolio, feel free to peruse the different tabs to view my projects, learn more about and contact me. Thank you.</p>
-      <p class="logo">Logo created using Paint and my Wacom Tablet.</p>
+    <p class="lead">Welcome to my Portfolio, feel free to peruse the different tabs to view my projects, learn more
+      about and contact me. Thank you.</p>
+    <p class="logo">Logo created using Paint and my Wacom Tablet.</p>
   </div>
 
   <!--Carousel of images of featured projects, each image is a link to portfolio and exact position-->
@@ -60,12 +63,14 @@
       <div class="carousel-inner">
         <div class="carousel-item active" data-interval="3000">
           <a id="linkToPosition" href="./html/portfolio.html#linkToProject2">
-            <img src="./public/img/beyondvacation.jpg" class="d-block w-100" alt="Vacation Outdoor Rental App Main Page">
+            <img src="./public/img/beyondvacation.jpg" class="d-block w-100"
+              alt="Vacation Outdoor Rental App Main Page">
           </a>
         </div>
         <div class="carousel-item" data-interval="3000">
           <a class="linkToPosition" href="./html/portfolio.html#linkToEmployee">
-            <img src="./public/img/employeetracker.jpg" class="d-block w-100" alt="Beginning of CLI Employee Tracker Demo">
+            <img src="./public/img/employeetracker.jpg" class="d-block w-100"
+              alt="Beginning of CLI Employee Tracker Demo">
           </a>
         </div>
         <div class="carousel-item" data-interval="3000">
