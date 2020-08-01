@@ -2,10 +2,6 @@ body {/*set color of background for body of all html files*/
     background-color: #0B032D;
 }
 
-h1 {/*sets font-size of 'about me' on about html*/
-    font-size: 20px;
-}
-
 h2, h3, h4, h5 {/*sets font-size of other header tags on about html*/
     font-size: 16px;
 }
@@ -32,6 +28,17 @@ h2, h3, h4, h5 {/*sets font-size of other header tags on about html*/
 .welcome {/*jumbotron on index html - background color is to make the jumbotron meld into the body background*/
     background-color: #0B032D;
     padding-top: 1rem;
+    color: #FFB997;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.logo {/*Sets size of font part of jumbotron on index.html*/
+    font-size: 12px;
+}
+
+.lead {/*Sets size of font part of jumbotron on index.html*/
+    font-size: 1.40rem;
 }
 
 .contact, #contact, #form {/*jumbotron on contact html - padding is decreased, color is set as same as body color to make it meld into background,
@@ -93,18 +100,18 @@ nav {/*style navbar, border on top and bottom and a margin on the top to push ap
     border: solid #0B032D;
 }
 
-.carousel-inner > .carousel-item > a > img {
+.carousel-inner > .carousel-item > a > img {/*Sets hight of images in carousel*/
     height: 600px;
     width: 100%;
 }
 
-a#contact-tab.nav-link.active, a#form-tab.nav-link.active {
+a#contact-tab.nav-link.active, a#form-tab.nav-link.active {/*Sets color and border color of tabs in contact html*/
     color: #FFB997;
     background-color: #0B032D;
     border-color: #74546A;
 }
 
-.nav-tabs {
+.nav-tabs {/*Sets font color and border color and design for tabs in contact html*/
     color: #FFB997;
     border-bottom: #74546A ridge;
 }
