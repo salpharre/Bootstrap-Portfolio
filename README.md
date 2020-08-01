@@ -33,10 +33,13 @@ Showcases a number of different projects, in each section:
 3. Two buttons, one to the repository, the second to the finished product (or demo for CLI projects)
 
 ##### About Me
-
+1. Personal Photo
+2. Information about skills, projects, education and work experience
 
 ##### Contact
-
+Includes two navigation tabs:
+1. Includes links to Github repository, Linkedin, email and phone number
+2. A form to send me a quick message
 
 ### Technology
 
@@ -57,7 +60,7 @@ Public and free-to-use
 
 Original launch date: `April 4th, 2020`
 
-Updated: `July 31st, 2020`
+Updated: `August 1st, 2020`
 
 [Link to Portfolio](https://salpharre.github.io/Bootstrap-Portfolio/)
  
