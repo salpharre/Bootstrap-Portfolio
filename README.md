@@ -21,16 +21,21 @@ Project webpage is a [personal portfolio](https://salpharre.github.io/Bootstrap-
 
 At any time you may navigate back to the home page by clicking on the logo or my name in the heading.
 
-Home page (index.html), there are two ways to navigate:
+##### Home page (index.html) 
+There are two ways to navigate:
 1. A carousel will showcase a few of the more exemplary projects, clicking on any of the pictures will send you directly to that project in the portfolio page.
 2. The navigation bar at the top
 
-Portfolio page (portfolio.html):
+##### Portfolio page (portfolio.html)
 Showcases a number of different projects, in each section:
 1. An image of the project
 2. A small description
 3. Two buttons, one to the repository, the second to the finished product (or demo for CLI projects)
 
+##### About Me
+
+
+##### Contact
 
 
 ### Technology
